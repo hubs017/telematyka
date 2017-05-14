@@ -6,7 +6,7 @@
 
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets network
 
 TARGET = telematyka
 TEMPLATE = app
@@ -26,12 +26,20 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += main.cpp\
         mainwindow.cpp \
     dodajpacjenta.cpp \
-    lozko.cpp
+    lozko.cpp \
+    baza_pacjentow.cpp \
+    dane_pacjenta.cpp \
+    test.cpp
 
 HEADERS  += mainwindow.h \
     dodajpacjenta.h \
-    lozko.h
+    lozko.h \
+    baza_pacjentow.h \
+    dane_pacjenta.h \
+    test.h
 
 FORMS    += mainwindow.ui \
     dodajpacjenta.ui \
-    lozko.ui
+    lozko.ui \
+    baza_pacjentow.ui \
+    dane_pacjenta.ui

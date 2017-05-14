@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include "dodajpacjenta.h"
 #include "lozko.h"
+#include "baza_pacjentow.h"
+
 
 
 namespace Ui {
@@ -24,6 +26,8 @@ private slots:
     void on_pushButton_2_clicked();
 
 
+
+    void on_pushButton_3_clicked();
 
 private:
     Ui::MainWindow *ui;

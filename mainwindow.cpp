@@ -27,3 +27,10 @@ void MainWindow::on_pushButton_2_clicked()
     l.setModal(true);
     l.exec();
 }
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    baza_pacjentow bp;
+    bp.setModal(true);
+    bp.exec();
+}

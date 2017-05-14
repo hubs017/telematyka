@@ -15,11 +15,12 @@ lozko::~lozko()
 
 void lozko::on_pushButton_clicked()
 {
-zmien_lozko();
-    //this->close();
+    this->close();
 }
 
 void lozko::zmien_lozko()
 {
    ui->label_2->setText("kupa");
 }
+
+
